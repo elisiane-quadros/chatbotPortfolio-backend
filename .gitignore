@@ -1,0 +1,47 @@
+# Diretórios e arquivos do ambiente virtual
+venv/
+.env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos relacionados a testes
+.tox/
+.coverage
+*.cover
+.hypothesis/
+
+# Arquivos temporários
+*.swp
+*.swo
+*.tmp
+
+# Bibliotecas instaladas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos específicos do sistema
+*.sqlite3
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
